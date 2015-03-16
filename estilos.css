@@ -1,0 +1,129 @@
+@import 'bootstrap/css/bootstrap.min.css';
+/*---------------------------------------------------------------------------------------------> generales*/
+h3 {
+  padding-top: 0;
+  margin-top: 0;
+}
+.btn-menta {
+  background-color: #51a279;
+  color: #fff;
+  text-transform: uppercase;
+}
+#pas {
+  color: #51a279;
+}
+/*---------------------------------------------------------------------------------------------> header*/
+header {
+  margin-top: 44px;
+}
+header .navbar {
+  text-align: right;
+}
+header .navbar nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+header .navbar nav ul li a {
+  color: #272a21;
+}
+header .navbar nav ul li :hover {
+  color: #79b496;
+  text-decoration: none;
+}
+/*---------------------------------------------------------------------------------------------> middle*/
+#middle .boton {
+  position: relative;
+  text-align: right;
+  top: 40px;
+}
+#middle .franja {
+  background-color: #e0f1e1;
+  margin-top: 36px;
+}
+#middle .franja .show {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+#middle .franja .show .icono {
+  color: #51a279;
+}
+#middle .franja .show .text p {
+  text-align: justify;
+}
+/*-------------------------------------------------------------------------------------------> project*/
+#project {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#project .title {
+  color: #272a21;
+}
+#project .enlaces {
+  position: relative;
+  top: 20px;
+}
+#project .enlaces a {
+  color: #51a279;
+  font-size: 1.1em;
+}
+.pro {
+  margin-top: 20px;
+}
+.pro .title {
+  margin: 5px 0;
+}
+.pro .title a {
+  color: #51a279;
+}
+.pro .more {
+  margin-bottom: 40px;
+}
+.pro .more a {
+  color: #51a279;
+  font-size: 1.2em;
+}
+/*-------------------------------------------------------------------------------------------> post*/
+.enlaces {
+  text-align: right;
+}
+.post .title {
+  margin-top: 20px;
+}
+.post .title a {
+  color: #51a279;
+}
+.post .more a {
+  color: #51a279;
+}
+.action {
+  background-color: #565950;
+  padding: 40px 0;
+}
+.action .barra {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.action .barra .description {
+  padding: 10px 0;
+}
+/*-------------------------------------------------------------------------------------------> post*/
+.bol {
+  position: relative;
+  top: 30px;
+}
+.marcas {
+  border: solid 2px #efefef;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 40px;
+}
+.infoextra {
+  margin-top: 34px;
+  margin-bottom: 60px;
+  background-color: #3c3c3c;
+  color: #fff;
+}
+.infoextra .paquetes {
+  margin: 40px 0;
+}
