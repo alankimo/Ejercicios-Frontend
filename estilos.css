@@ -118,12 +118,52 @@ header .navbar nav ul li :hover {
   margin-top: 20px;
   padding: 40px;
 }
+/*-------------------------------------------------------------------------------------------> infoextra*/
 .infoextra {
   margin-top: 34px;
-  margin-bottom: 60px;
   background-color: #3c3c3c;
   color: #fff;
 }
 .infoextra .paquetes {
   margin: 40px 0;
+}
+.infoextra .paquetes .title {
+  text-transform: uppercase;
+}
+.textus {
+  margin-left: -30px;
+  font-size: 0.9em;
+}
+.formulario {
+  margin-top: 20px;
+}
+.formulario form input {
+  background-color: transparent;
+  border: solid 1px #efefef;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+.tamaño {
+  height: 70px;
+}
+.botonazo {
+  text-align: right;
+}
+/*-------------------------------------------------------------------------------------------> footer*/
+footer {
+  background-color: #303030;
+  color: #fff;
+  padding: 50px 0;
+}
+footer .enlaces2 ul {
+  text-align: right;
+}
+footer .enlaces2 ul li {
+  display: inline-block;
+  font-size: 1em;
+  margin-left: 10px;
+}
+footer .enlaces2 ul li a {
+  color: #51a279;
 }
