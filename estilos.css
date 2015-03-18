@@ -1,5 +1,8 @@
 @import 'bootstrap/css/bootstrap.min.css';
 /*---------------------------------------------------------------------------------------------> generales*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 h3 {
   padding-top: 0;
   margin-top: 0;
@@ -8,6 +11,13 @@ h3 {
   background-color: #51a279;
   color: #fff;
   text-transform: uppercase;
+  padding: 15px 25px;
+}
+.btn-menta2 {
+  background-color: #51a279;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 30px;
 }
 #pas {
   color: #51a279;
@@ -34,7 +44,7 @@ header .navbar nav ul li :hover {
 #middle .boton {
   position: relative;
   text-align: right;
-  top: 40px;
+  top: 60px;
 }
 #middle .franja {
   background-color: #e0f1e1;
@@ -64,7 +74,10 @@ header .navbar nav ul li :hover {
 }
 #project .enlaces a {
   color: #51a279;
-  font-size: 1.1em;
+  font-size: 0.8em;
+}
+#project .enlaces a i {
+  font-size: 1.7em;
 }
 .pro {
   margin-top: 20px;
@@ -96,7 +109,7 @@ header .navbar nav ul li :hover {
   color: #51a279;
 }
 .action {
-  background-color: #565950;
+  background-color: #3c3c3c;
   padding: 40px 0;
 }
 .action .barra {
@@ -107,7 +120,7 @@ header .navbar nav ul li :hover {
 .action .barra .description {
   padding: 10px 0;
 }
-/*-------------------------------------------------------------------------------------------> post*/
+/*-------------------------------------------------------------------------------------------> action*/
 .bol {
   position: relative;
   top: 30px;
@@ -117,6 +130,12 @@ header .navbar nav ul li :hover {
   margin-bottom: 20px;
   margin-top: 20px;
   padding: 40px;
+}
+.boton2 {
+  position: relative;
+  text-align: center;
+  top: 30px;
+  margin-bottom: 50px;
 }
 /*-------------------------------------------------------------------------------------------> infoextra*/
 .infoextra {
