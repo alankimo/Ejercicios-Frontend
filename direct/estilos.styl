@@ -8,15 +8,30 @@ h3
 	padding-top 0
 	margin-top 0
 .btn-menta
-	background-color #51a279
+	background-color pasto
+	display inline-block
 	color #fff
 	text-transform uppercase
+	//transition(background-color .2s \, color .2s \, padding .2s \, transform .2s)
+	transition(all .2s )
 	padding 15px 25px
-.btn-menta2
-	background-color #51a279
+
+	&:hover
+		background-color pasto-light
+		color #000
+		transform(scale(1.1))
+	
+.btn-menta-chico
+	background-color pasto
+	display inline-block
 	color #fff
 	text-transform uppercase
+	transition(background-color .5s \, color .5s)
 	padding 10px 30px
+	
+	&:hover
+		background-color pasto-light
+		color #000
 #pas
 	color pasto
 /*---------------------------------------------------------------------------------------------> header*/
@@ -114,6 +129,17 @@ header
 	margin-bottom 20px
 	margin-top 20px
 	padding 40px
+	transition(all .5s)
+	
+	&:hover
+		background-color pasto-light
+		
+		i
+			-webkit-animation-name: example; /* Chrome, Safari, Opera */
+			-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+			animation-name rotate
+			animation-duration 4s
+		
 .boton2
 		position relative
 		text-align center
@@ -159,5 +185,16 @@ footer
 				margin-left 10px
 				a
 					color pasto
+					
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rotate {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(45deg)}
+}
+
+@keyframes example {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(45deg)}
+}
 					
 				

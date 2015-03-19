@@ -9,15 +9,40 @@ h3 {
 }
 .btn-menta {
   background-color: #51a279;
+  display: inline-block;
   color: #fff;
   text-transform: uppercase;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
   padding: 15px 25px;
 }
-.btn-menta2 {
+.btn-menta:hover {
+  background-color: #75d7a5;
+  color: #000;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.btn-menta-chico {
   background-color: #51a279;
+  display: inline-block;
   color: #fff;
   text-transform: uppercase;
+  -webkit-transition: background-color 0.5s , color 0.5s;
+  -moz-transition: background-color 0.5s , color 0.5s;
+  -o-transition: background-color 0.5s , color 0.5s;
+  -ms-transition: background-color 0.5s , color 0.5s;
+  transition: background-color 0.5s , color 0.5s;
   padding: 10px 30px;
+}
+.btn-menta-chico:hover {
+  background-color: #75d7a5;
+  color: #000;
 }
 #pas {
   color: #51a279;
@@ -130,6 +155,22 @@ header .navbar nav ul li :hover {
   margin-bottom: 20px;
   margin-top: 20px;
   padding: 40px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.marcas:hover {
+  background-color: #75d7a5;
+}
+.marcas:hover i {
+  -webkit-animation-name: example;
+/* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s;
+/* Chrome, Safari, Opera */
+  animation-name: rotate;
+  animation-duration: 4s;
 }
 .boton2 {
   position: relative;
@@ -185,4 +226,85 @@ footer .enlaces2 ul li {
 }
 footer .enlaces2 ul li a {
   color: #51a279;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+@-moz-keyframes example {
+  from {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+@-webkit-keyframes example {
+  from {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+@-o-keyframes example {
+  from {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+@keyframes example {
+  from {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
 }
