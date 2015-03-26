@@ -1,0 +1,212 @@
+
+@import 'vars.styl'
+/*--------------------------------------------------------------------------------------- generales*/
+body
+	font-family open
+.red-boton
+	background-color rojo
+	padding 10px 15px
+	&:hover
+		background-color transparent
+		border 2px solid rojo
+		transition(2s)
+h2
+	font-weight 300
+	text-transform uppercase
+	font-size 8em
+	text-align center
+/*--------------------------------------------------------------------------------------- fotofondo*/
+.fotofondo
+	background-image url("assets/back.jpg")
+	background-size cover
+	background-repeat no-repeat
+	//background-attachment absolute
+	height 742px
+	z-index 1
+	position absolute
+	top 0
+	width 100%
+/*--------------------------------------------------------------------------------------- header */
+
+header
+	position relative
+	z-index 2
+	margin-top 30px
+	
+	.logo
+		margin-bottom 30px
+		
+	.navbar
+		nav
+			ul
+				text-align right
+				position relative
+				top 15px
+				li
+					display inline-block
+					text-transform uppercase
+					//margin-left 25px
+					font-weight 600
+					font-size 1.2em
+					a
+						color #fff
+						display block
+						padding 6px 20px
+						transition(.2s)
+						&:hover
+							text-decoration none
+							color rojo
+							
+.donation
+	border solid 2px transparent
+	color #fff
+	background-color rojo
+	transition(.2s)
+	box-sizing(border-box)
+	&:hover
+		border solid 2px rojo
+		background-color transparent
+		
+							
+	
+/*--------------------------------------------------------------------------------------- interior */
+.interior
+	position relative
+	z-index 2
+	text-align center
+	text-transform uppercase
+	border-top .99px solid #fff
+	padding-top 80px
+	.text
+		font-size 4em
+		color #fff
+		font-weight 300
+	.boton
+		position relative
+		top 50px
+		
+		display inline-block
+		a
+			background-color #000
+			border solid 2px transparent
+			display block
+			font-size 1.5em
+			color #fff
+			padding 20px
+			transition(.2s)
+			&:hover
+				border solid 2px rojo
+				background-color transparent
+				color rojo
+				text-decoration none
+					
+					
+/*--------------------------------------------------------------------------------------- donate */
+.fofondos
+	background-image url("assets/donate.jpg")
+	background-size cover
+	background-repeat no-repeat
+	//background-attachment absolute
+	height 1486px
+	width 100%
+	.title
+		position relative
+		top 270px
+		color #fff
+	.subtitle
+		position relative
+		top 280px
+		color #fff
+		text-align center
+		font-size 2em
+		text-transform uppercase
+.col3
+	position relative
+	top 340px
+	background-color #fff
+	border solid 1px #fff
+	.titulo
+		color verde
+		font-size 1.5em
+		margin-left 20px
+		margin-bottom 10px
+		margin-top 20px
+	.description
+		margin-left 20px
+		color gris
+	.item01
+		color verde
+		padding 0px
+		margin 0 0 20px 20px
+		font-size .8em
+
+.botonchico
+	text-align center
+	position relative
+	top 370px
+	display inline-block
+	margin 0 500px
+	a
+		background-color #000
+		border solid 2px transparent
+		display block
+		font-size 1em
+		color #fff
+		padding 15px 40px
+		transition(.2s)
+		&:hover
+			border solid 2px rojo
+			background-color transparent
+			color rojo
+			text-decoration none
+/*--------------------------------------------------------------------------------------- contacto */
+.contacto
+	margin-top 20px
+	margin-bottom 60px
+	.subtitle
+		text-align center
+		color gris
+		font-size 2em
+.mapa
+	margin 60px 0
+	padding 6px
+	border solid 1px gris
+
+.titlecon
+	h4
+		font-weight 600
+		color verde
+		margin-bottom 30px
+		
+input
+	padding 20px
+	color verde
+	width 100%
+	margin-bottom 10px
+.grande
+	height 140px
+	
+.botonmenta
+	margin-top 30px
+	a
+		font-weight 600
+		color #fff
+		background-color menta
+		border solid 2px menta
+		border-radius(4px)
+		padding 20px 60px
+		transition(.2s)
+		&:hover
+			text-decoration none
+			background-color transparent
+			color menta
+/*--------------------------------------------------------------------------------------- footer */
+
+footer
+	background-color #000
+	color #fff
+	text-align center
+	padding 20px 0
+	
+
+	
