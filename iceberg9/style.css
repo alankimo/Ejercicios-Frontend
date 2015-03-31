@@ -1,0 +1,158 @@
+/*
+Theme Name: iceberg9
+Theme URI: ---
+Description: Ejercicio Responsive 03
+Author: Dymenxion
+Version: 1.0
+*/
+@import 'bootstrap/css/bootstrap.min.css';
+@import url 'http://fonts.googleapis.com/css?family=Share:700|Open+Sans:400,300,600,700';
+@import '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+/* Mobile Firts */
+/* Tablets: Landscape */
+/* Desktops */
+@media screen and (min-width: 1200px) {
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  h2 {
+    font-weight: 700;
+  }
+  header {
+    background-image: url("assets/header.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 416px;
+    border-bottom: solid 2px #efefef;
+  }
+  header .logo {
+    position: relative;
+    top: 330px;
+  }
+  .navbar nav {
+    position: relative;
+    top: 355px;
+  }
+  .navbar nav ul {
+    margin-right: 120px;
+    text-align: right;
+  }
+  .navbar nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 1.1em;
+  }
+  .navbar nav ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  .navbar nav ul li a span {
+    font-size: 0.95em;
+    margin-left: 10px;
+    -webkit-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    -ms-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+  }
+  .navbar nav ul li a span:hover {
+    color: #005085;
+  }
+  .about {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+  .about .title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .about .content {
+    text-align: justify;
+    font-weight: 300;
+  }
+  .about .content a {
+    color: #00b5e7;
+    -webkit-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    -ms-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+  }
+  .about .content a:hover {
+    text-decoration: none;
+    color: #005085;
+  }
+  .title_s {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .title_s h2 {
+    font-size: 1.9em;
+  }
+  .serv4 {
+    width: 95%;
+    margin-top: 60px;
+  }
+  .serv4 .ico {
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .serv4 .ico span {
+    color: #00b5e7;
+  }
+  .serv4 .name {
+    text-align: center;
+  }
+  .serv4 .name h4 {
+    font-size: 1.8em;
+  }
+  .serv4 .text {
+    text-align: justify;
+    font-size: 0.95em;
+    margin-top: 20px;
+  }
+  .title_p {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .title_p h2 {
+    font-size: 1.9em;
+  }
+  .proyectos {
+    width: 95%;
+    margin: 0 auto;
+    border: solid 2px #efefef;
+  }
+  .expertos img {
+    margin: 50px auto;
+  }
+  #contacto {
+    background-image: url("assets/emperadores.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 917px;
+  }
+  #contacto .title {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 40px;
+  }
+  #contacto .title h2 {
+    font-size: 2.2em;
+    font-weight: 400;
+  }
+  #contacto .subtitle {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    margin-bottom: 100px;
+  }
+  .forma {
+    width: 100%;
+  }
+}
