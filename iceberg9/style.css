@@ -9,6 +9,157 @@ Version: 1.0
 @import url 'http://fonts.googleapis.com/css?family=Share:700|Open+Sans:400,300,600,700';
 @import '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
 /* Mobile Firts */
+@media screen and (max-width: 768px) {
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  h2 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.8em;
+  }
+  header {
+    border-bottom: solid 2px #efefef;
+  }
+  header .logo {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+  }
+  header .logo img {
+    width: 80%;
+    height: auto;
+  }
+  header .trigermenu {
+    font-size: 1.8em;
+    text-align: left;
+    position: relative;
+    top: 15px;
+  }
+  .about .content {
+    text-align: justify;
+  }
+  .about .content a {
+    color: #00b5e7;
+  }
+  .serv4 {
+    text-align: center;
+  }
+  .serv4 .ico {
+    font-size: 2em;
+    color: #00b5e7;
+  }
+  .serv4 .name h4 {
+    font-weight: 600;
+  }
+  #contacto {
+    background-image: url("assets/emperadores.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  #contacto .title {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+  #contacto .title h2 {
+    font-size: 2.2em;
+    font-weight: 400;
+  }
+  #contacto .subtitle {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    margin-bottom: 20px;
+  }
+  .form-contact-mini {
+    width: 76%;
+    margin: 0 auto;
+  }
+  .form-contact-mini form .btn-azul {
+    background: rgba(76,208,244,0.75);
+    width: 97%;
+    font-size: 1em;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .form-contact-mini form .btn-azul:hover {
+    background: rgba(239,239,239,0.75);
+  }
+  .form-contact-mini form input {
+    background-color: rgba(0,0,0,0.49);
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  textarea {
+    width: 97%;
+    margin-left: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 5px;
+    background-color: rgba(0,0,0,0.49);
+    color: #fff;
+    border: none;
+  }
+  .social {
+    text-align: center;
+    margin-top: 170px;
+    font-size: 2em;
+  }
+  .social a {
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .social a:hover {
+    text-decoration: none;
+  }
+  .tri {
+    background-image: url("assets/blanco.png");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .flecha {
+    text-align: center;
+    position: relative;
+    top: 1px;
+  }
+  .flecha a {
+    color: #005085;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .flecha a:hover {
+    color: #00b5e7;
+  }
+  footer {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+}
 /* Tablets: Landscape */
 /* Desktops */
 @media screen and (min-width: 1200px) {
